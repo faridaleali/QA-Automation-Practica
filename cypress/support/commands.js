@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('containP', (p) => { 
+    cy.get('p').contains(p)
+})
+
+Cypress.Commands.add('inputPlaceholder', (inputType, type) => { 
+    cy.get(`input[placeholder="${inputType}"]`).type(type); // Corrige el paréntesis
+});

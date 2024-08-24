@@ -1,0 +1,14 @@
+{
+    "inputFormCorrect": {
+        "Name": "Juan Perez",
+        "Email": "juan@gmail.com",
+        "Phone": "35123696457",
+        "Subject": "Reserva de habitación para fecha X"
+    },
+    "inputFormIncorrect": {
+        "Name": "asd",
+        "Email": "asdasd",
+        "Phone": "asdasd",
+        "Subject": "asdasd"
+    }
+}
