@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "QA-FaridAleAli",
   e2e: {
     screenshotOnRunFailure: true,
     screenshotsFolder: 'cypress/screenshots',
